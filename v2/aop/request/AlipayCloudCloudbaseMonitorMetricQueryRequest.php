@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.cloud.cloudbase.monitor.metric.query request
  *
  * @author auto create
- * @since 1.0, 2024-04-25 15:59:47
+ * @since 1.0, 2024-04-26 11:37:01
  */
 class AlipayCloudCloudbaseMonitorMetricQueryRequest
 {
