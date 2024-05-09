@@ -8,7 +8,6 @@ docs/Api/AliosOpenAutoInfoApi.md
 docs/Api/AlipayBossFncInvoiceApi.md
 docs/Api/AlipayBossFncInvoicereceiptApi.md
 docs/Api/AlipayBossFncUserinvoiceinfoApi.md
-docs/Api/AlipayBossProdMyTestApi.md
 docs/Api/AlipayCommerceCityfacilitatorStationApi.md
 docs/Api/AlipayCommerceCityfacilitatorVoucherApi.md
 docs/Api/AlipayCommerceEcBalanceDownloadurlApi.md
@@ -64,6 +63,7 @@ docs/Api/AlipayEbppInvoiceApi.md
 docs/Api/AlipayEbppInvoiceApplyInvApi.md
 docs/Api/AlipayEbppInvoiceApplyResultApi.md
 docs/Api/AlipayEbppInvoiceApplyStatusApi.md
+docs/Api/AlipayEbppInvoiceApplystatusApi.md
 docs/Api/AlipayEbppInvoiceAuthApi.md
 docs/Api/AlipayEbppInvoiceDetailOutputApi.md
 docs/Api/AlipayEbppInvoiceEcorderOrderApi.md
@@ -212,7 +212,6 @@ docs/Api/AlipayMarketingMaterialImageApi.md
 docs/Api/AlipayMarketingRecruitEnrollApi.md
 docs/Api/AlipayMarketingRecruitPlanApi.md
 docs/Api/AlipayMarketingRecruitPlanlistApi.md
-docs/Api/AlipayMarketingXuanyitestApi.md
 docs/Api/AlipayMerchantAnchorInfoApi.md
 docs/Api/AlipayMerchantImageApi.md
 docs/Api/AlipayMerchantIndirectAuthorderApi.md
@@ -260,7 +259,6 @@ docs/Api/AlipayOpenAppQrcodeApi.md
 docs/Api/AlipayOpenAppServiceApi.md
 docs/Api/AlipayOpenAppServiceListApi.md
 docs/Api/AlipayOpenAppServiceSchemaApi.md
-docs/Api/AlipayOpenAppTestGrayApi.md
 docs/Api/AlipayOpenAuthAppAesApi.md
 docs/Api/AlipayOpenAuthTokenApi.md
 docs/Api/AlipayOpenAuthTokenAppApi.md
@@ -336,7 +334,6 @@ docs/Api/AlipayOpenMiniVersionGrayApi.md
 docs/Api/AlipayOpenMiniVersionListApi.md
 docs/Api/AlipayOpenMiniWidgetDataApi.md
 docs/Api/AlipayOpenMiniWidgetGoodsApi.md
-docs/Api/AlipayOpenOperationOpenbizmockTestpathkeyApi.md
 docs/Api/AlipayOpenPublicAccountApi.md
 docs/Api/AlipayOpenPublicAdvertApi.md
 docs/Api/AlipayOpenPublicArticlesummaryDataApi.md
@@ -411,7 +408,6 @@ docs/Api/AlipayPcreditHuabeiAuthRefundApi.md
 docs/Api/AlipayPcreditHuabeiAuthSettleApi.md
 docs/Api/AlipaySecurityDataSssApi.md
 docs/Api/AlipaySecurityProdSssApi.md
-docs/Api/AlipaySecurityProdTianwutestApi.md
 docs/Api/AlipaySecurityRiskCustomerriskApi.md
 docs/Api/AlipaySecurityRiskVerifyidentityMiniappApi.md
 docs/Api/AlipaySocialBaseContentlibStandardcontentApi.md
@@ -468,7 +464,6 @@ docs/Api/KoubeiMarketingCampaignIntelligentPromoApi.md
 docs/Api/KoubeiMarketingCampaignIntelligentShopApi.md
 docs/Api/KoubeiMarketingCampaignIntelligentTemplateApi.md
 docs/Api/KoubeiMarketingCampaignItemMerchantactivityApi.md
-docs/Api/KoubeiMemberDataIsvApi.md
 docs/Api/KoubeiTradeOrderApi.md
 docs/Api/MonitorHeartbeatApi.md
 docs/Api/ZhimaCreditPayafteruseCreditagreementApi.md
@@ -497,7 +492,6 @@ src/Api/AliosOpenAutoInfoApi.php
 src/Api/AlipayBossFncInvoiceApi.php
 src/Api/AlipayBossFncInvoicereceiptApi.php
 src/Api/AlipayBossFncUserinvoiceinfoApi.php
-src/Api/AlipayBossProdMyTestApi.php
 src/Api/AlipayCommerceCityfacilitatorStationApi.php
 src/Api/AlipayCommerceCityfacilitatorVoucherApi.php
 src/Api/AlipayCommerceEcBalanceDownloadurlApi.php
@@ -553,6 +547,7 @@ src/Api/AlipayEbppInvoiceApi.php
 src/Api/AlipayEbppInvoiceApplyInvApi.php
 src/Api/AlipayEbppInvoiceApplyResultApi.php
 src/Api/AlipayEbppInvoiceApplyStatusApi.php
+src/Api/AlipayEbppInvoiceApplystatusApi.php
 src/Api/AlipayEbppInvoiceAuthApi.php
 src/Api/AlipayEbppInvoiceDetailOutputApi.php
 src/Api/AlipayEbppInvoiceEcorderOrderApi.php
@@ -701,7 +696,6 @@ src/Api/AlipayMarketingMaterialImageApi.php
 src/Api/AlipayMarketingRecruitEnrollApi.php
 src/Api/AlipayMarketingRecruitPlanApi.php
 src/Api/AlipayMarketingRecruitPlanlistApi.php
-src/Api/AlipayMarketingXuanyitestApi.php
 src/Api/AlipayMerchantAnchorInfoApi.php
 src/Api/AlipayMerchantImageApi.php
 src/Api/AlipayMerchantIndirectAuthorderApi.php
@@ -749,7 +743,6 @@ src/Api/AlipayOpenAppQrcodeApi.php
 src/Api/AlipayOpenAppServiceApi.php
 src/Api/AlipayOpenAppServiceListApi.php
 src/Api/AlipayOpenAppServiceSchemaApi.php
-src/Api/AlipayOpenAppTestGrayApi.php
 src/Api/AlipayOpenAuthAppAesApi.php
 src/Api/AlipayOpenAuthTokenApi.php
 src/Api/AlipayOpenAuthTokenAppApi.php
@@ -825,7 +818,6 @@ src/Api/AlipayOpenMiniVersionGrayApi.php
 src/Api/AlipayOpenMiniVersionListApi.php
 src/Api/AlipayOpenMiniWidgetDataApi.php
 src/Api/AlipayOpenMiniWidgetGoodsApi.php
-src/Api/AlipayOpenOperationOpenbizmockTestpathkeyApi.php
 src/Api/AlipayOpenPublicAccountApi.php
 src/Api/AlipayOpenPublicAdvertApi.php
 src/Api/AlipayOpenPublicArticlesummaryDataApi.php
@@ -900,7 +892,6 @@ src/Api/AlipayPcreditHuabeiAuthRefundApi.php
 src/Api/AlipayPcreditHuabeiAuthSettleApi.php
 src/Api/AlipaySecurityDataSssApi.php
 src/Api/AlipaySecurityProdSssApi.php
-src/Api/AlipaySecurityProdTianwutestApi.php
 src/Api/AlipaySecurityRiskCustomerriskApi.php
 src/Api/AlipaySecurityRiskVerifyidentityMiniappApi.php
 src/Api/AlipaySocialBaseContentlibStandardcontentApi.php
@@ -957,7 +948,6 @@ src/Api/KoubeiMarketingCampaignIntelligentPromoApi.php
 src/Api/KoubeiMarketingCampaignIntelligentShopApi.php
 src/Api/KoubeiMarketingCampaignIntelligentTemplateApi.php
 src/Api/KoubeiMarketingCampaignItemMerchantactivityApi.php
-src/Api/KoubeiMemberDataIsvApi.php
 src/Api/KoubeiTradeOrderApi.php
 src/Api/MonitorHeartbeatApi.php
 src/Api/ZhimaCreditPayafteruseCreditagreementApi.php
@@ -984,6 +974,7 @@ src/ApiException.php
 src/Configuration.php
 src/HeaderSelector.php
 src/Model/AbilityPageQueryDTO.php
+src/Model/AccessParams.php
 src/Model/AccountLogItemResult.php
 src/Model/AccountQuotaDetail.php
 src/Model/ActivityAppInfo.php
@@ -1038,9 +1029,6 @@ src/Model/AlipayBossFncUserinvoiceinfoModifyModel.php
 src/Model/AlipayBossFncUserinvoiceinfoQueryDefaultResponse.php
 src/Model/AlipayBossFncUserinvoiceinfoQueryErrorResponseModel.php
 src/Model/AlipayBossFncUserinvoiceinfoQueryResponseModel.php
-src/Model/AlipayBossProdMyTestQueryDefaultResponse.php
-src/Model/AlipayBossProdMyTestQueryErrorResponseModel.php
-src/Model/AlipayBossProdMyTestQueryResponseModel.php
 src/Model/AlipayCommerceCityfacilitatorStationQueryDefaultResponse.php
 src/Model/AlipayCommerceCityfacilitatorStationQueryErrorResponseModel.php
 src/Model/AlipayCommerceCityfacilitatorStationQueryResponseModel.php
@@ -1183,6 +1171,7 @@ src/Model/AlipayCommerceLogisticsLogisticscompanyInstantdeliveryQueryResponseMod
 src/Model/AlipayCommerceLogisticsOrderInstantdeliveryCancelDefaultResponse.php
 src/Model/AlipayCommerceLogisticsOrderInstantdeliveryCancelErrorResponseModel.php
 src/Model/AlipayCommerceLogisticsOrderInstantdeliveryCancelModel.php
+src/Model/AlipayCommerceLogisticsOrderInstantdeliveryCancelResponseModel.php
 src/Model/AlipayCommerceLogisticsOrderInstantdeliveryCreateDefaultResponse.php
 src/Model/AlipayCommerceLogisticsOrderInstantdeliveryCreateErrorResponseModel.php
 src/Model/AlipayCommerceLogisticsOrderInstantdeliveryCreateModel.php
@@ -1463,6 +1452,7 @@ src/Model/AlipayEbppInvoiceInstitutionCreateModel.php
 src/Model/AlipayEbppInvoiceInstitutionCreateResponseModel.php
 src/Model/AlipayEbppInvoiceInstitutionDeleteDefaultResponse.php
 src/Model/AlipayEbppInvoiceInstitutionDeleteErrorResponseModel.php
+src/Model/AlipayEbppInvoiceInstitutionDeleteResponseModel.php
 src/Model/AlipayEbppInvoiceInstitutionDetailinfoQueryDefaultResponse.php
 src/Model/AlipayEbppInvoiceInstitutionDetailinfoQueryErrorResponseModel.php
 src/Model/AlipayEbppInvoiceInstitutionDetailinfoQueryResponseModel.php
@@ -1481,6 +1471,7 @@ src/Model/AlipayEbppInvoiceInstitutionExpenseruleModifyResponseModel.php
 src/Model/AlipayEbppInvoiceInstitutionModifyDefaultResponse.php
 src/Model/AlipayEbppInvoiceInstitutionModifyErrorResponseModel.php
 src/Model/AlipayEbppInvoiceInstitutionModifyModel.php
+src/Model/AlipayEbppInvoiceInstitutionModifyResponseModel.php
 src/Model/AlipayEbppInvoiceInstitutionPageinfoQueryDefaultResponse.php
 src/Model/AlipayEbppInvoiceInstitutionPageinfoQueryErrorResponseModel.php
 src/Model/AlipayEbppInvoiceInstitutionPageinfoQueryResponseModel.php
@@ -2197,10 +2188,6 @@ src/Model/AlipayMarketingRecruitPlanlistQueryDefaultResponse.php
 src/Model/AlipayMarketingRecruitPlanlistQueryErrorResponseModel.php
 src/Model/AlipayMarketingRecruitPlanlistQueryModel.php
 src/Model/AlipayMarketingRecruitPlanlistQueryResponseModel.php
-src/Model/AlipayMarketingXuanyitestTransferDefaultResponse.php
-src/Model/AlipayMarketingXuanyitestTransferErrorResponseModel.php
-src/Model/AlipayMarketingXuanyitestTransferModel.php
-src/Model/AlipayMarketingXuanyitestTransferResponseModel.php
 src/Model/AlipayMerchantAnchorInfoQueryDefaultResponse.php
 src/Model/AlipayMerchantAnchorInfoQueryErrorResponseModel.php
 src/Model/AlipayMerchantAnchorInfoQueryResponseModel.php
@@ -2434,13 +2421,6 @@ src/Model/AlipayOpenAppServiceQueryResponseModel.php
 src/Model/AlipayOpenAppServiceSchemaQueryDefaultResponse.php
 src/Model/AlipayOpenAppServiceSchemaQueryErrorResponseModel.php
 src/Model/AlipayOpenAppServiceSchemaQueryResponseModel.php
-src/Model/AlipayOpenAppTestGrayCreateDefaultResponse.php
-src/Model/AlipayOpenAppTestGrayCreateErrorResponseModel.php
-src/Model/AlipayOpenAppTestGrayCreateModel.php
-src/Model/AlipayOpenAppTestGrayCreateResponseModel.php
-src/Model/AlipayOpenAppTestGrayQueryDefaultResponse.php
-src/Model/AlipayOpenAppTestGrayQueryErrorResponseModel.php
-src/Model/AlipayOpenAppTestGrayQueryResponseModel.php
 src/Model/AlipayOpenAuthAppAesGetDefaultResponse.php
 src/Model/AlipayOpenAuthAppAesGetErrorResponseModel.php
 src/Model/AlipayOpenAuthAppAesGetResponseModel.php
@@ -2815,10 +2795,6 @@ src/Model/AlipayOpenMiniWidgetGoodsUploadDefaultResponse.php
 src/Model/AlipayOpenMiniWidgetGoodsUploadErrorResponseModel.php
 src/Model/AlipayOpenMiniWidgetGoodsUploadModel.php
 src/Model/AlipayOpenMiniWidgetGoodsUploadResponseModel.php
-src/Model/AlipayOpenOperationOpenbizmockTestpathkeyQueryDefaultResponse.php
-src/Model/AlipayOpenOperationOpenbizmockTestpathkeyQueryErrorResponseModel.php
-src/Model/AlipayOpenOperationOpenbizmockTestpathkeyQueryModel.php
-src/Model/AlipayOpenOperationOpenbizmockTestpathkeyQueryResponseModel.php
 src/Model/AlipayOpenPublicAccountCreateDefaultResponse.php
 src/Model/AlipayOpenPublicAccountCreateErrorResponseModel.php
 src/Model/AlipayOpenPublicAccountCreateModel.php
@@ -3254,10 +3230,6 @@ src/Model/AlipaySecurityProdSssQueryDefaultResponse.php
 src/Model/AlipaySecurityProdSssQueryErrorResponseModel.php
 src/Model/AlipaySecurityProdSssQueryModel.php
 src/Model/AlipaySecurityProdSssQueryResponseModel.php
-src/Model/AlipaySecurityProdTianwutestModifyDefaultResponse.php
-src/Model/AlipaySecurityProdTianwutestModifyErrorResponseModel.php
-src/Model/AlipaySecurityProdTianwutestModifyModel.php
-src/Model/AlipaySecurityProdTianwutestModifyResponseModel.php
 src/Model/AlipaySecurityRiskCustomerriskSendDefaultResponse.php
 src/Model/AlipaySecurityRiskCustomerriskSendErrorResponseModel.php
 src/Model/AlipaySecurityRiskCustomerriskSendModel.php
@@ -3534,6 +3506,7 @@ src/Model/AnttechOceanbaseTestplatformTaskQueryDefaultResponse.php
 src/Model/AnttechOceanbaseTestplatformTaskQueryErrorResponseModel.php
 src/Model/AnttechOceanbaseTestplatformTaskQueryModel.php
 src/Model/AnttechOceanbaseTestplatformTaskQueryResponseModel.php
+src/Model/AppItemInfo.php
 src/Model/AppMemberInfo.php
 src/Model/AppTokenExchangeSubElement.php
 src/Model/AppVersionInfo.php
@@ -3548,6 +3521,7 @@ src/Model/ArticleAttachmentInfo.php
 src/Model/ArticleCategoryInfo.php
 src/Model/ArticleInfo.php
 src/Model/ArticleSummaryAnalysisData.php
+src/Model/AssetShareSourceInfo.php
 src/Model/Attachment.php
 src/Model/AttachmentDetail.php
 src/Model/AttachmentExplain.php
@@ -3697,7 +3671,10 @@ src/Model/DeliveryCityCodeRule.php
 src/Model/DeliveryConfig.php
 src/Model/DeliveryContentConfig.php
 src/Model/DeliveryContentInfo.php
+src/Model/DeliveryCrowdRule.php
+src/Model/DeliveryDisplayInfo.php
 src/Model/DeliveryFullSendConfig.php
+src/Model/DeliveryItemContentInfo.php
 src/Model/DeliveryMaterial.php
 src/Model/DeliveryMerchantInfo.php
 src/Model/DeliveryMerchantRule.php
@@ -3709,6 +3686,7 @@ src/Model/DeliverySingleMaterial.php
 src/Model/DeliverySingleSendConfig.php
 src/Model/DeliveryTargetRegion.php
 src/Model/DeliveryTargetRule.php
+src/Model/DeliveryTemplateRule.php
 src/Model/DepartmentInfoDTO.php
 src/Model/DepositBackInfo.php
 src/Model/Detail.php
@@ -3769,6 +3747,7 @@ src/Model/FixVoucher.php
 src/Model/FixVoucherInfo.php
 src/Model/FlowSigner.php
 src/Model/ForbbidenTime.php
+src/Model/FulfillmentDetail.php
 src/Model/FunctionalService.php
 src/Model/FundExtInfo.php
 src/Model/Gavintest.php
@@ -3799,6 +3778,7 @@ src/Model/IndirectSupportCredentials.php
 src/Model/IndustryQualificationInfo.php
 src/Model/Instance.php
 src/Model/InstitutionBasicInfo.php
+src/Model/IntactChargeInfo.php
 src/Model/InteligentBudgetInfo.php
 src/Model/InteligentClauseTerm.php
 src/Model/InteligentConstraintInfo.php
@@ -3913,9 +3893,6 @@ src/Model/KoubeiMarketingCampaignItemMerchantactivityModifyModel.php
 src/Model/KoubeiMarketingCampaignItemMerchantactivityQueryDefaultResponse.php
 src/Model/KoubeiMarketingCampaignItemMerchantactivityQueryErrorResponseModel.php
 src/Model/KoubeiMarketingCampaignItemMerchantactivityQueryResponseModel.php
-src/Model/KoubeiMemberDataIsvCreateDefaultResponse.php
-src/Model/KoubeiMemberDataIsvCreateErrorResponseModel.php
-src/Model/KoubeiMemberDataIsvCreateModel.php
 src/Model/KoubeiTradeOrderConsultDefaultResponse.php
 src/Model/KoubeiTradeOrderConsultErrorResponseModel.php
 src/Model/KoubeiTradeOrderConsultModel.php
@@ -3933,8 +3910,6 @@ src/Model/LogisticsDetail.php
 src/Model/LogisticsShopStatusDTO.php
 src/Model/MCardDetail.php
 src/Model/MarketingDeliveryDetail.php
-src/Model/Marketingtest.php
-src/Model/Marketingtestt.php
 src/Model/Matcher.php
 src/Model/Material.php
 src/Model/MaterialCreateInfo.php
@@ -3949,7 +3924,6 @@ src/Model/McardTemplateBenefitQuery.php
 src/Model/MccQueryInfo.php
 src/Model/MdCodeInfoDTO.php
 src/Model/MemberExtInfo.php
-src/Model/MemberShip.php
 src/Model/MemberStatusRespDTO.php
 src/Model/MenuAnalysisData.php
 src/Model/MerchantActivityModifyVoucherInfo.php
@@ -3990,11 +3964,13 @@ src/Model/OcrTrainScanInfo.php
 src/Model/OpenApiRefundFundDetailPojo.php
 src/Model/OpenApiResponseHeader.php
 src/Model/OpenApiRoyaltyDetailInfoPojo.php
+src/Model/OpenApiSpecifiedChannelParamsPojo.php
 src/Model/OpenAppOperatorVo.php
+src/Model/OpenCertifyIdentifyInfo.php
 src/Model/OpenCertifyIdentityParam.php
 src/Model/OpenCertifyMerchantConfig.php
+src/Model/OpenCertifyMerchantConfigs.php
 src/Model/OpenFormFieldDO.php
-src/Model/OpenidComplex.php
 src/Model/OperationResultExtInfo.php
 src/Model/Option.php
 src/Model/OrderApplyStatusBriefDTO.php
@@ -4025,7 +4001,6 @@ src/Model/OrderVoucherRealShopFailInfo.php
 src/Model/OrderVoucherShopFailInfo.php
 src/Model/OrderVoucherUseRuleResult.php
 src/Model/Org.php
-src/Model/OuterMemberInfo.php
 src/Model/OverseasExtendParams.php
 src/Model/PackageItemOpenInfo.php
 src/Model/PaidOuterCardCycleInfoDTO.php
@@ -4039,6 +4014,7 @@ src/Model/PaidOuterCardTemplateConfDTO.php
 src/Model/Participant.php
 src/Model/PayParams.php
 src/Model/PaymentFixVoucher.php
+src/Model/PaymentInfoWithId.php
 src/Model/PaymentVoucherAlipayBalanceRechargeInfo.php
 src/Model/PaymentVoucherAvailableGoods.php
 src/Model/PaymentVoucherAvailableGoodsModify.php
@@ -4059,6 +4035,7 @@ src/Model/PluginBetaItemInfo.php
 src/Model/PluginUseConfigInfo.php
 src/Model/PluginUseRelationInfo.php
 src/Model/PointCard.php
+src/Model/PostPayment.php
 src/Model/PreCreateWaybillIstd.php
 src/Model/PreOrderExtInfo.php
 src/Model/PresetPayToolInfo.php
@@ -4164,11 +4141,14 @@ src/Model/ShopCategoryInfo.php
 src/Model/ShopCommentInfo.php
 src/Model/ShopExtInfo.php
 src/Model/ShopQueryOpenApiVO.php
+src/Model/ShopRecommendInfo.php
 src/Model/ShopSummaryQueryResponse.php
 src/Model/SignAddressInfo.php
 src/Model/SignData.php
 src/Model/SignField.php
 src/Model/SignFieldBean.php
+src/Model/SignMerchantParams.php
+src/Model/SignParams.php
 src/Model/SignRestrictInfo.php
 src/Model/Signer.php
 src/Model/SignerBean.php
@@ -4211,6 +4191,8 @@ src/Model/TemplateBenefitInfoDTO.php
 src/Model/TemplateCardLevelConfDTO.php
 src/Model/TemplateColumnInfoDTO.php
 src/Model/TemplateFieldRuleDTO.php
+src/Model/TemplateFormConfig.php
+src/Model/TemplateFormFields.php
 src/Model/TemplateInfo.php
 src/Model/TemplateInfoBean.php
 src/Model/TemplateMdcodeNotifyConfDTO.php
@@ -4243,6 +4225,7 @@ src/Model/UpdatedAuthenticationDetails.php
 src/Model/UseRule.php
 src/Model/UseTime.php
 src/Model/UserAnalysisData.php
+src/Model/UserAssetInfoVO.php
 src/Model/UserDetails.php
 src/Model/UserIdentityInfo.php
 src/Model/UserInfomation.php
@@ -4266,6 +4249,8 @@ src/Model/VoucherAvailableGeographyScopeResultInfo.php
 src/Model/VoucherAvailableGeographyShopInfo.php
 src/Model/VoucherAvailableGeographyShopResultInfo.php
 src/Model/VoucherAvailableGoodsInfo.php
+src/Model/VoucherAvailableItemInfo.php
+src/Model/VoucherAvailableOutItemInfo.php
 src/Model/VoucherAvailableScope.php
 src/Model/VoucherAvailableScopeInfo.php
 src/Model/VoucherAvailableScopeModify.php
